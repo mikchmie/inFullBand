@@ -362,7 +362,7 @@
 				DEVELOPMENT_TEAM = V5T4VNV573;
 				INFOPLIST_FILE = "$(SRCROOT)/inFullBand/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.infullmobile.infullband;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mikchmie.infullband;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
@@ -380,7 +380,7 @@
 				DEVELOPMENT_TEAM = V5T4VNV573;
 				INFOPLIST_FILE = "$(SRCROOT)/inFullBand/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.infullmobile.infullband;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mikchmie.infullband;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
