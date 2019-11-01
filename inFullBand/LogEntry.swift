@@ -8,8 +8,16 @@
 
 import Foundation
 
-struct LogEntry {
+struct LogEntry: Hashable {
     let emoji: String
     let title: String
     let subtitle: String
+    let isSpecial: Bool
+    
+    init(emoji: String, title: String, subtitle: String, isSpecial: Bool = false) {
+        self.emoji = emoji
+        self.title = title
+        self.subtitle = subtitle
+        self.isSpecial = isSpecial
+    }
 }

@@ -7,12 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D08690A9236C33A300702FB2 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D08690A8236C33A300702FB2 /* MainView.swift */; };
+		D08690AB236C362900702FB2 /* LogListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D08690AA236C362900702FB2 /* LogListCell.swift */; };
+		D08690AD236C3C8700702FB2 /* ActionButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D08690AC236C3C8700702FB2 /* ActionButtonView.swift */; };
 		D08AF1F41FC433720009A7AF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D08AF1F31FC433720009A7AF /* AppDelegate.swift */; };
 		D08AF1F61FC433720009A7AF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D08AF1F51FC433720009A7AF /* ViewController.swift */; };
 		D08AF1F91FC433720009A7AF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D08AF1F71FC433720009A7AF /* Main.storyboard */; };
 		D08AF1FB1FC433720009A7AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D08AF1FA1FC433720009A7AF /* Assets.xcassets */; };
 		D08AF1FE1FC433720009A7AF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D08AF1FC1FC433720009A7AF /* LaunchScreen.storyboard */; };
 		D08BC6B620038A41007B5137 /* ActionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D08BC6B520038A41007B5137 /* ActionButton.swift */; };
+		D0A6D6E623704C5200D3E365 /* MainController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A6D6E523704C5200D3E365 /* MainController.swift */; };
 		D0E177102003981C008F4187 /* ActivityTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E1770F2003981C008F4187 /* ActivityTableViewCell.swift */; };
 		D0E177122003A53B008F4187 /* LogEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E177112003A53B008F4187 /* LogEntry.swift */; };
 		D0F5BA151FD97B24005E778D /* Int+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0F5BA141FD97B24005E778D /* Int+Extensions.swift */; };
@@ -25,6 +29,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D08690A8236C33A300702FB2 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		D08690AA236C362900702FB2 /* LogListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogListCell.swift; sourceTree = "<group>"; };
+		D08690AC236C3C8700702FB2 /* ActionButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionButtonView.swift; sourceTree = "<group>"; };
 		D08AF1F01FC433720009A7AF /* inFullBand.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = inFullBand.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D08AF1F31FC433720009A7AF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D08AF1F51FC433720009A7AF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -34,6 +41,7 @@
 		D08AF1FF1FC433720009A7AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D08AF2061FC435430009A7AF /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
 		D08BC6B520038A41007B5137 /* ActionButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionButton.swift; sourceTree = "<group>"; };
+		D0A6D6E523704C5200D3E365 /* MainController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainController.swift; sourceTree = "<group>"; };
 		D0E1770F2003981C008F4187 /* ActivityTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityTableViewCell.swift; sourceTree = "<group>"; };
 		D0E177112003A53B008F4187 /* LogEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogEntry.swift; sourceTree = "<group>"; };
 		D0F5BA141FD97B24005E778D /* Int+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Int+Extensions.swift"; sourceTree = "<group>"; };
@@ -94,6 +102,17 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		D0A6D6E42370491E00D3E365 /* SwiftUI */ = {
+			isa = PBXGroup;
+			children = (
+				D08690A8236C33A300702FB2 /* MainView.swift */,
+				D08690AA236C362900702FB2 /* LogListCell.swift */,
+				D08690AC236C3C8700702FB2 /* ActionButtonView.swift */,
+				D0A6D6E523704C5200D3E365 /* MainController.swift */,
+			);
+			path = SwiftUI;
+			sourceTree = "<group>";
+		};
 		D0F5BA0F1FD97933005E778D /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
@@ -119,6 +138,7 @@
 		D0F5BA111FD97987005E778D /* UI */ = {
 			isa = PBXGroup;
 			children = (
+				D0A6D6E42370491E00D3E365 /* SwiftUI */,
 				D08AF1F71FC433720009A7AF /* Main.storyboard */,
 				D08AF1F51FC433720009A7AF /* ViewController.swift */,
 				D08BC6B520038A41007B5137 /* ActionButton.swift */,
@@ -210,16 +230,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				D08AF1F61FC433720009A7AF /* ViewController.swift in Sources */,
+				D08690A9236C33A300702FB2 /* MainView.swift in Sources */,
 				D0FEE6C51FCDA00C0015EFEA /* MiBandConstants.swift in Sources */,
 				D0FEE6C31FCD9F490015EFEA /* Array+Extensions.swift in Sources */,
 				D0FEE6BF1FCD9EFC0015EFEA /* Data+Extensions.swift in Sources */,
 				D0E177102003981C008F4187 /* ActivityTableViewCell.swift in Sources */,
+				D08690AD236C3C8700702FB2 /* ActionButtonView.swift in Sources */,
 				D0E177122003A53B008F4187 /* LogEntry.swift in Sources */,
+				D0A6D6E623704C5200D3E365 /* MainController.swift in Sources */,
 				D0F5BA171FD97B32005E778D /* DateComponents+Extensions.swift in Sources */,
 				D0FEE6BD1FCD9D4C0015EFEA /* MiBandService.swift in Sources */,
 				D0F5BA151FD97B24005E778D /* Int+Extensions.swift in Sources */,
 				D08AF1F41FC433720009A7AF /* AppDelegate.swift in Sources */,
 				D0FEE6C11FCD9F1B0015EFEA /* CoreBluetooth+Extensions.swift in Sources */,
+				D08690AB236C362900702FB2 /* LogListCell.swift in Sources */,
 				D08BC6B620038A41007B5137 /* ActionButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -363,10 +387,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = V5T4VNV573;
+				DEVELOPMENT_TEAM = RJ5RUB9M42;
 				INFOPLIST_FILE = "$(SRCROOT)/inFullBand/Resources/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.mikchmie.infullband;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mikchmie.speednet.infullband;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
@@ -380,10 +405,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = V5T4VNV573;
+				DEVELOPMENT_TEAM = RJ5RUB9M42;
 				INFOPLIST_FILE = "$(SRCROOT)/inFullBand/Resources/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.mikchmie.infullband;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mikchmie.speednet.infullband;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;

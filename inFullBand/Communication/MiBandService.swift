@@ -260,7 +260,7 @@ extension MiBandService {
     }
 
     func specialLog(_ emoji: String, _ title: String, _ subtitle: String = "") {
-        externalSpecialLog(LogEntry(emoji: emoji, title: title, subtitle: subtitle))
+        externalSpecialLog(LogEntry(emoji: emoji, title: title, subtitle: subtitle, isSpecial: true))
     }
 
     func errorLog(_ title: String, _ subtitle: String = "") {
