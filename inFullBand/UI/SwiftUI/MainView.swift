@@ -31,17 +31,7 @@ struct MainView: View {
                 }
                 VStack(spacing: 0.0) {
                     VStack(spacing: 6.0) {
-                        ForEach([
-                            [ButtonDescriptor(emoji: "🌎", title: "Discover", action: controller.discoverButtonAction),
-                             ButtonDescriptor(emoji: "❌", title: "Disconnect", action: controller.disconnectButtonAction),
-                             ButtonDescriptor(emoji: "📶", title: "Update stats", action: controller.updateButtonAction)],
-                            [ButtonDescriptor(emoji: "💚", title: "On", action: controller.startMonitoringHeartRateButtonAction),
-                             ButtonDescriptor(emoji: "❤️", title: "Off", action: controller.stopMonitoringHeartRateButtonAction),
-                             ButtonDescriptor(emoji: "💛", title: "Measure", action: controller.measureHeartRateButtonAction)],
-                            [ButtonDescriptor(emoji: "📱", title: "Alert", action: controller.callNotificationButtonAction),
-                             ButtonDescriptor(emoji: "✉️", title: "Alert", action: controller.textNotificationButtonAction),
-                             ButtonDescriptor(emoji: "❕", title: "Clear alert", action: controller.clearNotificationButtonAction)],
-                            ] as [[ButtonDescriptor]], id: \.self) { sectionItems in
+                        ForEach(self.makeButtonDescriptors(), id: \.self) { sectionItems in
                                 HStack(spacing: 6.0) {
                                     ForEach(sectionItems, id: \.self) { item in
                                         Button(action: item.action) {
@@ -55,12 +45,24 @@ struct MainView: View {
                     .background(Color.black)
                     Rectangle()
                         .foregroundColor(.black)
-                        .frame(maxHeight: UIApplication.shared.windows.first?.safeAreaInsets.bottom)
+                        .frame(height: UIApplication.shared.windows.first?.safeAreaInsets.bottom)
                 }
             }
             .navigationBarTitle(Text("Activity"))
             .edgesIgnoringSafeArea(.bottom)
         }
+    }
+    
+    private func makeButtonDescriptors() -> [[ButtonDescriptor]] {
+        [[ButtonDescriptor(emoji: "🌎", title: "Discover", action: controller.discoverButtonAction),
+          ButtonDescriptor(emoji: "❌", title: "Disconnect", action: controller.disconnectButtonAction),
+          ButtonDescriptor(emoji: "📶", title: "Update stats", action: controller.updateButtonAction)],
+         [ButtonDescriptor(emoji: "💚", title: "On", action: controller.startMonitoringHeartRateButtonAction),
+          ButtonDescriptor(emoji: "❤️", title: "Off", action: controller.stopMonitoringHeartRateButtonAction),
+          ButtonDescriptor(emoji: "💛", title: "Measure", action: controller.measureHeartRateButtonAction)],
+         [ButtonDescriptor(emoji: "📱", title: "Alert", action: controller.callNotificationButtonAction),
+          ButtonDescriptor(emoji: "✉️", title: "Alert", action: controller.textNotificationButtonAction),
+          ButtonDescriptor(emoji: "❕", title: "Clear alert", action: controller.clearNotificationButtonAction)]]
     }
 }
 
@@ -86,6 +88,5 @@ struct MainView_Previews: PreviewProvider {
             LogEntry(emoji: "❌", title: "Title", subtitle: "Subtitle"),
             LogEntry(emoji: "🔥", title: "No subtitle", subtitle: "")
         ])
-        .previewDevice(PreviewDevice(rawValue: "iPhone X"))
     }
 }
