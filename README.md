@@ -7,10 +7,10 @@ It enables some basic interaction between an iOS device and a Xiaomi Mi Band 2.
 
 ## Requirements
 
-- Device with iOS 11.1
+- Device with iOS 14.0
 - Xiaomi Mi Band 2
-- Xcode 10.2
-- Swift 5.0
+- Xcode 12.0
+- Swift 5.3
 
 ## Usage
 
