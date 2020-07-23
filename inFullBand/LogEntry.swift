@@ -8,13 +8,15 @@
 
 import Foundation
 
-struct LogEntry: Hashable {
+struct LogEntry: Hashable, Identifiable {
+    let id: UUID
     let emoji: String
     let title: String
     let subtitle: String
     let isSpecial: Bool
     
     init(emoji: String, title: String, subtitle: String, isSpecial: Bool = false) {
+        self.id = UUID()
         self.emoji = emoji
         self.title = title
         self.subtitle = subtitle

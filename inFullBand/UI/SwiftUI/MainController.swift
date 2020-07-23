@@ -22,7 +22,6 @@ class MainController: ObservableObject {
     
     private func log(_ entry: LogEntry) {
         logHistory.append(entry)
-//        tableView.scrollToRow(at: IndexPath(row: logHistory.count - 1, section: 0), at: .bottom, animated: true)
     }
 
     private func specialLog(_ entry: LogEntry) {

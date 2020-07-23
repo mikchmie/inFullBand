@@ -18,15 +18,22 @@ struct MainView: View {
     var body: some View {
         NavigationView {
             VStack(spacing: 0.0) {
-                List(controller.logHistory.reversed(), id: \.self) { logEntry in
-                    if logEntry.isSpecial {
-                        Button(action: {
-                            self.controller.logEntrySelectedAction(logEntry: logEntry)
-                        }) {
+                ScrollViewReader { scrollViewProxy in
+                    List(controller.logHistory, id: \.id) { logEntry in
+                        if logEntry.isSpecial {
+                            Button(action: {
+                                self.controller.logEntrySelectedAction(logEntry: logEntry)
+                            }) {
+                                LogListCell(logEntry: logEntry)
+                            }
+                        } else {
                             LogListCell(logEntry: logEntry)
                         }
-                    } else {
-                        LogListCell(logEntry: logEntry)
+                    }
+                    .onChange(of: controller.logHistory) { _ in
+                        if let lastRowID = controller.logHistory.last?.id {
+                            scrollViewProxy.scrollTo(lastRowID)
+                        }
                     }
                 }
                 VStack(spacing: 0.0) {
