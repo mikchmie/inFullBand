@@ -22,7 +22,6 @@ struct MainView: View {
                 controlPad
             }
             .navigationBarTitle(Text("Activity"))
-            .edgesIgnoringSafeArea(.bottom)
         }
     }
     
@@ -64,10 +63,7 @@ struct MainView: View {
                 }
             }
             .padding(6.0)
-            .background(Color.black)
-            Rectangle()
-                .foregroundColor(.black)
-                .frame(height: UIApplication.shared.windows.first?.safeAreaInsets.bottom)
+            .background(Color.black.edgesIgnoringSafeArea(.bottom))
         }
     }
     
