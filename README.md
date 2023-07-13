@@ -2,7 +2,7 @@
 
 ## General information
 
-App created as an example for Medium article: [*Introduction to Bluetooth LE on iOS :  Mi Band 2 case study*](https://blog.infullmobile.com/introduction-to-bluetooth-le-on-ios-mi-band-2-case-study-343153921877).
+App created as an example for Medium article: [*Introduction to Bluetooth LE on iOS :  Mi Band 2 case study*](https://withintent.com/blog/ble-ios-mi-band/).
 It enables some basic interaction between an iOS device and a Xiaomi Mi Band 2.
 
 ## Requirements
