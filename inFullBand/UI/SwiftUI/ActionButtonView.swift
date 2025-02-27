@@ -32,9 +32,6 @@ struct ActionButtonView: View {
     }
 }
 
-struct ActionButtonView_Previews: PreviewProvider {
-    static var previews: some View {
-        ActionButtonView(emoji: "🌎", title: "Discover")
-            .previewLayout(.fixed(width: 100, height: 70))
-    }
+#Preview(traits: .fixedLayout(width: 100, height: 70)) {
+    ActionButtonView(emoji: "🌎", title: "Discover")
 }

@@ -30,13 +30,7 @@ struct LogListCell: View {
     }
 }
 
-struct LogListCell_Previews: PreviewProvider {
-    static var previews: some View {
-        Group {
-            LogListCell(logEntry: LogEntry(emoji: "🌎", title: "Title", subtitle: "Subtitle"))
-                .previewLayout(.sizeThatFits)
-            LogListCell(logEntry: LogEntry(emoji: "🔥", title: "Title", subtitle: ""))
-                .previewLayout(.sizeThatFits)
-        }
-    }
+#Preview(traits: .sizeThatFitsLayout) {
+    LogListCell(logEntry: LogEntry(emoji: "🌎", title: "Title", subtitle: "Subtitle"))
+    LogListCell(logEntry: LogEntry(emoji: "🔥", title: "Title", subtitle: ""))
 }

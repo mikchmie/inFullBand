@@ -3,55 +3,34 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 48;
+	objectVersion = 77;
 	objects = {
 
-/* Begin PBXBuildFile section */
-		D08690A9236C33A300702FB2 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D08690A8236C33A300702FB2 /* MainView.swift */; };
-		D08690AB236C362900702FB2 /* LogListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D08690AA236C362900702FB2 /* LogListCell.swift */; };
-		D08690AD236C3C8700702FB2 /* ActionButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D08690AC236C3C8700702FB2 /* ActionButtonView.swift */; };
-		D08AF1F41FC433720009A7AF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D08AF1F31FC433720009A7AF /* AppDelegate.swift */; };
-		D08AF1F61FC433720009A7AF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D08AF1F51FC433720009A7AF /* ViewController.swift */; };
-		D08AF1F91FC433720009A7AF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D08AF1F71FC433720009A7AF /* Main.storyboard */; };
-		D08AF1FB1FC433720009A7AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D08AF1FA1FC433720009A7AF /* Assets.xcassets */; };
-		D08AF1FE1FC433720009A7AF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D08AF1FC1FC433720009A7AF /* LaunchScreen.storyboard */; };
-		D08BC6B620038A41007B5137 /* ActionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D08BC6B520038A41007B5137 /* ActionButton.swift */; };
-		D0A6D6E623704C5200D3E365 /* MainController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A6D6E523704C5200D3E365 /* MainController.swift */; };
-		D0E177102003981C008F4187 /* ActivityTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E1770F2003981C008F4187 /* ActivityTableViewCell.swift */; };
-		D0E177122003A53B008F4187 /* LogEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E177112003A53B008F4187 /* LogEntry.swift */; };
-		D0F5BA151FD97B24005E778D /* Int+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0F5BA141FD97B24005E778D /* Int+Extensions.swift */; };
-		D0F5BA171FD97B32005E778D /* DateComponents+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0F5BA161FD97B32005E778D /* DateComponents+Extensions.swift */; };
-		D0FEE6BD1FCD9D4C0015EFEA /* MiBandService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0FEE6BC1FCD9D4C0015EFEA /* MiBandService.swift */; };
-		D0FEE6BF1FCD9EFC0015EFEA /* Data+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0FEE6BE1FCD9EFC0015EFEA /* Data+Extensions.swift */; };
-		D0FEE6C11FCD9F1B0015EFEA /* CoreBluetooth+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0FEE6C01FCD9F1B0015EFEA /* CoreBluetooth+Extensions.swift */; };
-		D0FEE6C31FCD9F490015EFEA /* Array+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0FEE6C21FCD9F490015EFEA /* Array+Extensions.swift */; };
-		D0FEE6C51FCDA00C0015EFEA /* MiBandConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0FEE6C41FCDA00C0015EFEA /* MiBandConstants.swift */; };
-/* End PBXBuildFile section */
-
 /* Begin PBXFileReference section */
-		D08690A8236C33A300702FB2 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
-		D08690AA236C362900702FB2 /* LogListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogListCell.swift; sourceTree = "<group>"; };
-		D08690AC236C3C8700702FB2 /* ActionButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionButtonView.swift; sourceTree = "<group>"; };
 		D08AF1F01FC433720009A7AF /* inFullBand.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = inFullBand.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		D08AF1F31FC433720009A7AF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D08AF1F51FC433720009A7AF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		D08AF1F81FC433720009A7AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		D08AF1FA1FC433720009A7AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		D08AF1FD1FC433720009A7AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		D08AF1FF1FC433720009A7AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D08AF2061FC435430009A7AF /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
-		D08BC6B520038A41007B5137 /* ActionButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionButton.swift; sourceTree = "<group>"; };
-		D0A6D6E523704C5200D3E365 /* MainController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainController.swift; sourceTree = "<group>"; };
-		D0E1770F2003981C008F4187 /* ActivityTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityTableViewCell.swift; sourceTree = "<group>"; };
-		D0E177112003A53B008F4187 /* LogEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogEntry.swift; sourceTree = "<group>"; };
-		D0F5BA141FD97B24005E778D /* Int+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Int+Extensions.swift"; sourceTree = "<group>"; };
-		D0F5BA161FD97B32005E778D /* DateComponents+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DateComponents+Extensions.swift"; sourceTree = "<group>"; };
-		D0FEE6BC1FCD9D4C0015EFEA /* MiBandService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiBandService.swift; sourceTree = "<group>"; };
-		D0FEE6BE1FCD9EFC0015EFEA /* Data+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Data+Extensions.swift"; sourceTree = "<group>"; };
-		D0FEE6C01FCD9F1B0015EFEA /* CoreBluetooth+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CoreBluetooth+Extensions.swift"; sourceTree = "<group>"; };
-		D0FEE6C21FCD9F490015EFEA /* Array+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+Extensions.swift"; sourceTree = "<group>"; };
-		D0FEE6C41FCDA00C0015EFEA /* MiBandConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiBandConstants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		D07BACCB2D70D6590095A1AE /* Exceptions for "inFullBand" folder in "inFullBand" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Resources/Info.plist,
+			);
+			target = D08AF1EF1FC433720009A7AF /* inFullBand */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		D07BACB62D70D6590095A1AE /* inFullBand */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				D07BACCB2D70D6590095A1AE /* Exceptions for "inFullBand" folder in "inFullBand" target */,
+			);
+			path = inFullBand;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		D08AF1ED1FC433720009A7AF /* Frameworks */ = {
@@ -67,7 +46,7 @@
 		D08AF1E71FC433720009A7AF = {
 			isa = PBXGroup;
 			children = (
-				D08AF1F21FC433720009A7AF /* inFullBand */,
+				D07BACB62D70D6590095A1AE /* inFullBand */,
 				D08AF1F11FC433720009A7AF /* Products */,
 				D08AF2051FC435430009A7AF /* Frameworks */,
 			);
@@ -81,79 +60,12 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		D08AF1F21FC433720009A7AF /* inFullBand */ = {
-			isa = PBXGroup;
-			children = (
-				D0F5BA111FD97987005E778D /* UI */,
-				D0F5BA131FD979BA005E778D /* Communication */,
-				D0F5BA0F1FD97933005E778D /* Extensions */,
-				D0F5BA101FD9794B005E778D /* Resources */,
-				D08AF1F31FC433720009A7AF /* AppDelegate.swift */,
-				D0E177112003A53B008F4187 /* LogEntry.swift */,
-			);
-			path = inFullBand;
-			sourceTree = "<group>";
-		};
 		D08AF2051FC435430009A7AF /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				D08AF2061FC435430009A7AF /* CoreBluetooth.framework */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		D0A6D6E42370491E00D3E365 /* SwiftUI */ = {
-			isa = PBXGroup;
-			children = (
-				D08690A8236C33A300702FB2 /* MainView.swift */,
-				D08690AA236C362900702FB2 /* LogListCell.swift */,
-				D08690AC236C3C8700702FB2 /* ActionButtonView.swift */,
-				D0A6D6E523704C5200D3E365 /* MainController.swift */,
-			);
-			path = SwiftUI;
-			sourceTree = "<group>";
-		};
-		D0F5BA0F1FD97933005E778D /* Extensions */ = {
-			isa = PBXGroup;
-			children = (
-				D0FEE6C21FCD9F490015EFEA /* Array+Extensions.swift */,
-				D0FEE6C01FCD9F1B0015EFEA /* CoreBluetooth+Extensions.swift */,
-				D0FEE6BE1FCD9EFC0015EFEA /* Data+Extensions.swift */,
-				D0F5BA161FD97B32005E778D /* DateComponents+Extensions.swift */,
-				D0F5BA141FD97B24005E778D /* Int+Extensions.swift */,
-			);
-			path = Extensions;
-			sourceTree = "<group>";
-		};
-		D0F5BA101FD9794B005E778D /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				D08AF1FA1FC433720009A7AF /* Assets.xcassets */,
-				D08AF1FF1FC433720009A7AF /* Info.plist */,
-				D08AF1FC1FC433720009A7AF /* LaunchScreen.storyboard */,
-			);
-			path = Resources;
-			sourceTree = "<group>";
-		};
-		D0F5BA111FD97987005E778D /* UI */ = {
-			isa = PBXGroup;
-			children = (
-				D0A6D6E42370491E00D3E365 /* SwiftUI */,
-				D08AF1F71FC433720009A7AF /* Main.storyboard */,
-				D08AF1F51FC433720009A7AF /* ViewController.swift */,
-				D08BC6B520038A41007B5137 /* ActionButton.swift */,
-				D0E1770F2003981C008F4187 /* ActivityTableViewCell.swift */,
-			);
-			path = UI;
-			sourceTree = "<group>";
-		};
-		D0F5BA131FD979BA005E778D /* Communication */ = {
-			isa = PBXGroup;
-			children = (
-				D0FEE6C41FCDA00C0015EFEA /* MiBandConstants.swift */,
-				D0FEE6BC1FCD9D4C0015EFEA /* MiBandService.swift */,
-			);
-			path = Communication;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -171,6 +83,9 @@
 			);
 			dependencies = (
 			);
+			fileSystemSynchronizedGroups = (
+				D07BACB62D70D6590095A1AE /* inFullBand */,
+			);
 			name = inFullBand;
 			productName = MiBand;
 			productReference = D08AF1F01FC433720009A7AF /* inFullBand.app */;
@@ -182,19 +97,18 @@
 		D08AF1E81FC433720009A7AF /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				BuildIndependentTargetsInParallel = YES;
 				LastSwiftUpdateCheck = 0910;
-				LastUpgradeCheck = 1020;
+				LastUpgradeCheck = 1620;
 				ORGANIZATIONNAME = "Mikołaj Chmielewski";
 				TargetAttributes = {
 					D08AF1EF1FC433720009A7AF = {
 						CreatedOnToolsVersion = 9.1;
 						LastSwiftMigration = 1020;
-						ProvisioningStyle = Automatic;
 					};
 				};
 			};
 			buildConfigurationList = D08AF1EB1FC433720009A7AF /* Build configuration list for PBXProject "inFullBand" */;
-			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -202,6 +116,7 @@
 				Base,
 			);
 			mainGroup = D08AF1E71FC433720009A7AF;
+			preferredProjectObjectVersion = 77;
 			productRefGroup = D08AF1F11FC433720009A7AF /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -216,9 +131,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D08AF1FE1FC433720009A7AF /* LaunchScreen.storyboard in Resources */,
-				D08AF1FB1FC433720009A7AF /* Assets.xcassets in Resources */,
-				D08AF1F91FC433720009A7AF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -229,51 +141,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D08AF1F61FC433720009A7AF /* ViewController.swift in Sources */,
-				D08690A9236C33A300702FB2 /* MainView.swift in Sources */,
-				D0FEE6C51FCDA00C0015EFEA /* MiBandConstants.swift in Sources */,
-				D0FEE6C31FCD9F490015EFEA /* Array+Extensions.swift in Sources */,
-				D0FEE6BF1FCD9EFC0015EFEA /* Data+Extensions.swift in Sources */,
-				D0E177102003981C008F4187 /* ActivityTableViewCell.swift in Sources */,
-				D08690AD236C3C8700702FB2 /* ActionButtonView.swift in Sources */,
-				D0E177122003A53B008F4187 /* LogEntry.swift in Sources */,
-				D0A6D6E623704C5200D3E365 /* MainController.swift in Sources */,
-				D0F5BA171FD97B32005E778D /* DateComponents+Extensions.swift in Sources */,
-				D0FEE6BD1FCD9D4C0015EFEA /* MiBandService.swift in Sources */,
-				D0F5BA151FD97B24005E778D /* Int+Extensions.swift in Sources */,
-				D08AF1F41FC433720009A7AF /* AppDelegate.swift in Sources */,
-				D0FEE6C11FCD9F1B0015EFEA /* CoreBluetooth+Extensions.swift in Sources */,
-				D08690AB236C362900702FB2 /* LogListCell.swift in Sources */,
-				D08BC6B620038A41007B5137 /* ActionButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		D08AF1F71FC433720009A7AF /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D08AF1F81FC433720009A7AF /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		D08AF1FC1FC433720009A7AF /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D08AF1FD1FC433720009A7AF /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		D08AF2001FC433720009A7AF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -295,6 +173,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -306,6 +185,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -333,6 +213,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -354,6 +235,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -365,6 +247,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -376,7 +259,8 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -385,13 +269,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ASSETCATALOG_COMPILER_GENERATE_ASSET_SYMBOL_FRAMEWORKS = "SwiftUI UIKit";
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = RJ5RUB9M42;
+				DEVELOPMENT_TEAM = V5T4VNV573;
 				INFOPLIST_FILE = "$(SRCROOT)/inFullBand/Resources/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.mikchmie.speednet.infullband;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mikchmie.infullband;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
@@ -403,13 +291,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ASSETCATALOG_COMPILER_GENERATE_ASSET_SYMBOL_FRAMEWORKS = "SwiftUI UIKit";
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = RJ5RUB9M42;
+				DEVELOPMENT_TEAM = V5T4VNV573;
 				INFOPLIST_FILE = "$(SRCROOT)/inFullBand/Resources/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.mikchmie.speednet.infullband;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mikchmie.infullband;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;

@@ -39,7 +39,7 @@ struct MainView: View {
                 }
             }
             .listStyle(PlainListStyle())
-            .onChange(of: controller.logHistory) { _ in
+            .onChange(of: controller.logHistory) {
                 if let lastRowID = controller.logHistory.last?.id {
                     withAnimation {
                         scrollViewProxy.scrollTo(lastRowID)
@@ -63,7 +63,7 @@ struct MainView: View {
                 }
             }
             .padding(6.0)
-            .background(Color.black.edgesIgnoringSafeArea(.bottom))
+            .background(Color.black.ignoresSafeArea(edges: .bottom))
         }
     }
     
@@ -95,12 +95,10 @@ fileprivate struct ButtonDescriptor: Hashable {
     }
 }
 
-struct MainView_Previews: PreviewProvider {
-    static var previews: some View {
-        MainView(logHistory: [
-            LogEntry(emoji: "🌎", title: "Discovered", subtitle: "Mi Band 2", isSpecial: true),
-            LogEntry(emoji: "❌", title: "Title", subtitle: "Subtitle"),
-            LogEntry(emoji: "🔥", title: "No subtitle", subtitle: "")
-        ])
-    }
+#Preview {
+    MainView(logHistory: [
+        LogEntry(emoji: "🌎", title: "Discovered", subtitle: "Mi Band 2", isSpecial: true),
+        LogEntry(emoji: "❌", title: "Title", subtitle: "Subtitle"),
+        LogEntry(emoji: "🔥", title: "No subtitle", subtitle: "")
+    ])
 }
